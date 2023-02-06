@@ -1,0 +1,15 @@
+h1{
+  text-align: center;
+}
+:host {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+section {
+  display: table;
+}
+
+.example-button-row button {
+  margin: 10px;
+}

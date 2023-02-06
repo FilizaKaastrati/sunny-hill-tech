@@ -1,0 +1,26 @@
+<mat-grid-list cols="2" rowHeight="1:1">
+  <mat-grid-tile sty>
+    <img height="500" src="../../assets/login.jpg"/>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <form  [formGroup]="formData" class="example-form" (ngSubmit) = "onLogin(formData.value)">
+      <h1 style="width: 100% ">User Login</h1>
+
+      <mat-form-field class="example-full-width">
+        <mat-label>Username</mat-label>
+        <input formControlName="email" matInput placeholder="liza@gmail.com" value="">
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <mat-label>Password</mat-label>
+        <input formControlName="password" matInput type="password" placeholder="*********" value="">
+      </mat-form-field>
+
+      <button mat-fab extended>
+        <mat-icon>locker</mat-icon>
+        Login
+      </button>
+    </form>
+
+  </mat-grid-tile>
+</mat-grid-list>

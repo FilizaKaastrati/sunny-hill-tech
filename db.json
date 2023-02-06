@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "name": "Monitor 32 \"",
+      "category": "Digital",
+      "price": 150,
+      "date": "2023-02-05T23:00:00.000Z",
+      "id": 1
+    },
+    {
+      "name": "T-shirt",
+      "category": "Clothes",
+      "price": 25,
+      "date": "2023-02-15T23:00:00.000Z",
+      "id": 2
+    }
+  ]
+}

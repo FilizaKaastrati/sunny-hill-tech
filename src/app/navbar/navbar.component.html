@@ -1,0 +1,12 @@
+<mat-toolbar class="toolbar">
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+  </button>
+  <span><img height="40px" src="../assets/logo.jpg"></span>
+  <span class="example-spacer"></span>
+  <div class="links">
+    <a class="links" mat-button routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
+    <a class="links" mat-button routerLink="/products" routerLinkActive="active"
+       ariaCurrentWhenActive="page">Products</a>
+    <a class="links" (click)="logout()" mat-button routerLink=".">Log out</a>
+  </div>
+</mat-toolbar>
